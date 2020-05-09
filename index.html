@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="game-controller" class="align-center">
+            <h2 id="title">Tic Tac Toe</h2>
+            <div id="board"></div>
+            <div class="players">
+                <span data-player='0' class='active'>Player 1 [ O ]</span>
+                <span data-player='1' class=''>Player 2 [ X ]</span>
+            </div>
+            <button class="reset">Reset</button>
+        </div>
+        <div id="modal" class="hide">
+            <div class="backdrop">
+                <div class="modal-body">
+                    <p class="body-content"></p>
+                    <button class="modal-button reset">Restart</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="game.js"></script>
+    <script src="main.js"></script>
+</html>
